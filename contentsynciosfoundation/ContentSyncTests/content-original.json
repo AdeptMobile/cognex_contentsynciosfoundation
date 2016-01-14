@@ -1,0 +1,77 @@
+{"metadata":{
+    "generatedOn":"2011-07-15 00:00:00",
+    "content":[
+        {
+            "name":"TestDir1",
+            "path":"Content/ToloApp/TestDir1",
+            "isDir":true,
+            "contents":[
+            	{
+            		"name":"testFile1",
+            		"path":"Content/ToloApp/TestDir1/testFile1",
+            		"isDir":false,
+            		"fileUrl":"http://test.com",
+            		"fileSize":"23",
+            		"fileModifiedDate":"2011-06-21 09:59:01"
+            	},
+            	{
+            		"name":"testSymlink1",
+            		"path":"Content/ToloApp/TestDir1/testSymlink1",
+            		"isDir":false,
+            		"symlink":"Content/ToloApp/TestDir1/testFile1"
+            	},
+            	{
+            		"name":"NestedTestDir1",
+		            "path":"Content/ToloApp/TestDir1/NestedTestDir1",
+		            "isDir":true,
+		            "contents":[
+		            	{
+		            		"name":"nestedTestFile1",
+		            		"path":"Content/ToloApp/NestedTestDir1/nestedTestFile1",
+		            		"isDir":false,
+		            		"fileUrl":"http://test.com",
+		            		"fileSize":"23",
+		            		"fileModifiedDate":"2011-06-21 09:59:01"
+            			}
+		            ]
+            	}
+            ]
+        },
+        {
+            "name":"TestDir2",
+            "path":"Content/ToloApp/TestDir2",
+            "isDir":true,
+            "contents":[
+            	{
+            		"name":"testFile2",
+            		"path":"Content/ToloApp/TestDir2/testFile2",
+            		"isDir":false,
+            		"fileUrl":"http://test.com",
+            		"fileSize":"23",
+            		"fileModifiedDate":"2011-06-21 09:59:01"
+            	},
+            	{
+            		"name":"testSymlink2",
+            		"path":"Content/ToloApp/TestDir2/testSymlink2",
+            		"isDir":false,
+            		"symlink":"Content/ToloApp/TestDir2/testFile2"
+            	},
+            	{
+            		"name":"NestedTestDir2",
+		            "path":"Content/ToloApp/TestDir2/NestedTestDir2",
+		            "isDir":true,
+		            "contents":[
+		            	{
+		            		"name":"nestedTestFile2",
+		            		"path":"Content/ToloApp/NestedTestDir2/nestedTestFile2",
+		            		"isDir":false,
+		            		"fileUrl":"http://test.com",
+		            		"fileSize":"23",
+		            		"fileModifiedDate":"2011-06-21 09:59:01"
+            			}
+		            ]
+            	}
+            ]
+        }
+    ]}
+}

@@ -1,0 +1,31 @@
+platform	:ios, ‘7.0’
+
+source 'https://github.com/CocoaPods/Specs'
+
+#Third Party Dependencies
+pod 'Reachability', '~> 3.2’
+pod 'AFNetworking', '~> 2.2.4'
+
+pod 'PDKeychainBindingsController@objectpartners', '~> 1.1'
+
+#OPIFoundation Local Dependencies
+#--BEGIN LOCAL In-House Dependencies
+#podLocal = ENV['POD_LOCAL_HOME']
+#
+#pod 'OPIFoundation/UtilHelpers', :path => podLocal + '/OPIFoundation'
+#pod 'OPIFoundation/IOSFrameworkCategories', :path => podLocal + '/OPIFoundation'
+#pod 'OPIFoundation/AppUpdater', :path => podLocal + '/OPIFoundation'
+#pod 'OPIFoundation/ZipArchive', :path => podLocal + '/OPIFoundation'
+#
+#--END LOCAL In-House Dependencies
+
+source 'https://github.com/objectpartners/OpiSpecs'
+pod 'TouchJSON@objectpartners', '1.1'
+
+#OPIFoundation Dependencies
+#--BEGIN RELEASED In-House Dependencies
+ pod 'OPIFoundation/UtilHelpers','~> 5.3'
+ pod 'OPIFoundation/IOSFrameworkCategories', '~> 5.3'
+ pod 'OPIFoundation/AppUpdater', '~> 5.3'
+ pod 'OPIFoundation/ZipArchive', '~> 5.3'
+#--END RELEASED In-House Dependencies

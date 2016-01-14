@@ -1,0 +1,26 @@
+# files created by XCode 3
+*.pbxuser
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcclassmodel/
+
+# files created by Xcode 4
+xcuserdata/
+
+# build products
+*.build/
+build/
+DerivedData/
+
+# Misc
+.project
+.idea
+.svn
+.DS_Store
+
+#custom & CocoaPods
+Podfile.lock
+Pods/
+xcworkspace.projects/
